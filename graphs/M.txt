@@ -1,0 +1,4 @@
+N = 2000
+X = 20
+M from 1 to 60 (step=5)
+Delay = 10ms

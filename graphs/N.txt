@@ -1,0 +1,4 @@
+M = 20
+X = 20
+N from 500 to 4000, step = 500
+Delay = 10ms
