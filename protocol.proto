@@ -1,0 +1,20 @@
+package protocol;
+
+option java_package = "ru.spbau.mit";
+option java_outer_classname = "Protocol";
+
+message Array {
+    repeated fixed32 value = 1 [packed=true];
+}
+
+message ServerCommand {
+    required string type = 1;
+    optional string serverType = 2;
+}
+
+message ServerResponse {
+    required string result = 1;
+    optional int32 port = 2;
+    optional double meanHandleTime = 3;
+    optional double meanResponseTime = 4;
+}
